@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    background-image: url(../img/OIP.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#form-container, #success-message {
+    background: white;
+    padding: 2em;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgb(17, 255, 0);
+    width: 300px;
+    text-align: center;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input.error {
+    border-color: red;
+}
+
+#error-list {
+    list-style-type: none;
+    padding: 0;
+    color: red;
+    text-align: left;
+}
+
+button {
+    padding: 0.75em;
+    border: none;
+    border-radius: 25px;
+    background: #000000;
+    color: rgb(64, 255, 0);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
